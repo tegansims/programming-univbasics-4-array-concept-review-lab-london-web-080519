@@ -9,7 +9,7 @@ end
 
 array1 = [2, 4, 6, 8]
 
-find_element_index(array1, 4)
+
 
 def find_element_index_try2(array, value_to_find)
   # Add your solution here
@@ -20,3 +20,4 @@ def find_element_index_try2(array, value_to_find)
   end
   p counter
 end
+find_element_index_try2(array1, 4)
