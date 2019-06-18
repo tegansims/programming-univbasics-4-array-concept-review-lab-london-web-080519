@@ -16,9 +16,9 @@ def find_element_index_try2(array, value_to_find)
   counter = 0 
   while counter < array.length
     if array[counter] == value
-      
+      puts array[counter]
     counter +=1
+    end
   end
-  p counter
 end
 find_element_index_try2(array1, 4)
