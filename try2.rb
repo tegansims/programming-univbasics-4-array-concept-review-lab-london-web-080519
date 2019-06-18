@@ -9,16 +9,5 @@ end
 
 array1 = [2, 4, 6, 8]
 
+find_element_index(array1, 8)
 
-
-def find_element_index_try2(array, value_to_find)
-  # Add your solution here
-  counter = 0 
-  while counter < array.length
-    if array[counter] == value_to_find
-      puts array[counter]
-    counter +=1
-    end
-  end
-end
-find_element_index_try2(array1, 4)
