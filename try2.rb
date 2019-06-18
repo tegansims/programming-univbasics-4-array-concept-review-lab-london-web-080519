@@ -10,5 +10,5 @@ end
 
 array1 = [2, 4, 6, 8]
 
-find_element_index(array1, 10)
+find_element_index(array1, 100)
 
